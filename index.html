@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Task Management System</title>
+  <link rel="stylesheet" href="form.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>Task Management System</h1>
+      <ul class="command-history"></ul>
+    </div>
+    <div class="content">
+      <h2>Enter Command:</h2>
+      <form id="commandForm">
+        <input type="text" id="commandInput" placeholder="Enter command" autocomplete="off" required>
+        <button type="submit">Send</button>
+      </form>
+      <div class="command-output"></div>
+    </div>
+  </div>
+  <script src="form.js"></script>
+</body>
+</html>
